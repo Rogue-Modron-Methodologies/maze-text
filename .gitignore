@@ -45,3 +45,15 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.filters
+*.suo
+maze-text.sdf
+*.sln
+Debug/maze-text.tlog/link.write.1.tlog
+*.tlog
+Debug/maze-text.obj
+*.pdb
+Debug/vc120.idb
+*.exe
+Debug/maze-text.log
+*.ilk
