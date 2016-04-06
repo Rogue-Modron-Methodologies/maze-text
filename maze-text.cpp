@@ -96,14 +96,14 @@ void loadMap(char choice, Player &player, int &game){
 		game = 3;
 	}
 	if (!inputFile){
-		std::cout << "Error opening maze file.  Terminating Program.";
+		std::cout << "Error opening maze file.  Terminating Program.\n";
 		exit(EXIT_FAILURE);
 	}
 	std::string buffer;
 	int row = 0;
 	int column = 0;
-	player.setX(17);
-	player.setY(19);
+	player.setX(1);
+	player.setY(1);
 
 	std::vector<std::vector <std::string> > maze(21, std::vector<std::string>(21, " "));
 
